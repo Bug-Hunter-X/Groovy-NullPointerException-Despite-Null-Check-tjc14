@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Groovy code involving null checks.  The `myMethod` function attempts to handle null arguments, but due to Groovy's dynamic typing, a `NullPointerException` can still occur. The solution showcases how to handle null checks more robustly to prevent this error.
